@@ -1,0 +1,120 @@
+<!--Michael A. Paschal-->
+<!--26 July 2015-->
+<!--IT Solutions Sample JavaScript and CSS code-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IT Solutions</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--Use CSS to color the background in black--> 
+<style>
+body {
+    color: red;
+	background-color: black;
+}
+<!--Use CSS to Align h1 to display in the center-->
+h1 {
+	text-align: center;
+}
+</style>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	<!--Navbar--> 
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">IT Solutions</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+	  <!--use "#" to link to homepage until content is added-->
+	  <!--Home button-->
+        <li class="active"><a href="#">Home</a></li>
+		<!--About dropdown-->
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Mission Statement</a></li>
+            <li><a href="#">CEO/Founder</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </li>
+		<!--Portfolio dropdown-->
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Software Engineering</a></li>
+            <li><a href="#">Database Management</a></li>
+          </ul>
+		  <!--Contact dropdown-->
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Phone</a></li>
+            <li><a href="#">eMail</a></li>
+            <li><a href="#">Social Media</a></li>
+          </ul>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+  <div class="jumbotron">
+    <h1>IT solutions made easy!</h1>      
+    <p>Search for an IT professional in your area.</p>
+	<!--search button-->
+    <a href="#" class="btn btn-info btn-lg"><span class="IT Partner-Search"></span> Search</a>
+  </div>
+
+    <div class="col-md-3">
+      <ul class="nav nav-pills nav-stacked">
+	  <!--Home button-->
+        <li class="active"><a href="#">Home</a></li>
+		<!--Customer Service Menu dropdown-->
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Customer Service<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Software Engineering Support</a></li>
+            <li><a href="#">Web Design Support</a></li>
+            <li><a href="#">Human Resources</a></li>                        
+          </ul>
+        </li>
+		<!--Careers dropdown-->
+        <li>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Careers<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Software Engineering</a></li>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Human Resources</a></li> 
+            <li><a href="#">Accounting</a></li>                       
+          </ul>
+        </li>
+		<!--Contact dropdown-->
+        <li>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Phone</a></li>
+            <li><a href="#">eMail</a></li>
+            <li><a href="#">Address</a></li> 
+            <li><a href="#">Social Media</a></li>                       
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+    <div class="clearfix visible-lg"></div>
+  </div>
+</div>
+
+</body>
+</html>
